@@ -260,7 +260,7 @@ plt.xticks(rotation=45)
 plt.legend(title="Yan Etkiler")
 plt.tight_layout()
 plt.show()
-######Kronik Hastalıkları Tekilleştirme ve Yan Etkilere Göre Gruplama ###
+### Kronik Hastalıkları Tekilleştirme ve Yan Etkilere Göre Gruplama ###
 df_kronik = df.copy()
 df_kronik["Kronik Hastaliklarim"] = df_kronik["Kronik Hastaliklarim"].str.split(", ")
 df_kronik = df_kronik.explode("Kronik Hastaliklarim")
