@@ -12,7 +12,7 @@ pd.set_option('display.width', 500)
 pd.set_option('display.max_rows', 400)
 
 df2 = pd.read_excel(
-    "Datasets/side_effect_data 1.xlsx",
+    "Datasets/side_effect_data_1.xlsx",
     index_col="Kullanici_id")
 df = df2.copy()
 df.head()
